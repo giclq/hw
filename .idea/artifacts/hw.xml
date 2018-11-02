@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hw">
+    <output-path>$PROJECT_DIR$/out/artifacts/hw</output-path>
+    <root id="archive" name="hw.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/WebContent" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hw" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/gson-2.2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/standard.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
